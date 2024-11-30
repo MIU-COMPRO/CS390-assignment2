@@ -1,10 +1,14 @@
-package problem1;
+package problem_one;
 
 public class Address {
     private String street;
     private String city;
     private String state;
     private String zip;
+
+    public String getCity() {
+        return city;
+    }
 
     public Address(String street, String city, String state, String zip){
         this.street = street;

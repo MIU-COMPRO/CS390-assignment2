@@ -1,11 +1,11 @@
-package problem1;
+package problem_one;
 
 public class Customer {
     private String firstName;
     private String lastName;
     private String socSecurityNum;
-    Address billingAddress;
-    Address shippingAddress;
+    private Address billingAddress;
+    private Address shippingAddress;
     //Initialize billingAddress
     //and shippingAddress through its setter from Customer class
     //Constructor
@@ -58,7 +58,7 @@ public class Customer {
 
     @Override
     public String toString() {
-        return "[" + firstName + ',' + lastName + ',' +
-                "ssn:" + socSecurityNum + ']';
+        return "[" + firstName + "," + lastName + "," +
+                "ssn:" + socSecurityNum + "]";
     }
 }
