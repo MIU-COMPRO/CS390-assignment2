@@ -26,6 +26,7 @@ public class Main {
                 System.out.println("Error! Please try again");
             }
         }
+        scanner.close();
         HeartRates hr1 = new HeartRates(fName,lName,birthday);
         hr1.calculateTargetRateRange();
         System.out.println(hr1);
