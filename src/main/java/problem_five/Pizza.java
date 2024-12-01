@@ -20,14 +20,12 @@ public class Pizza {
             case SMALL -> 8.0;
             case MEDIUM -> 10.0;
             case LARGE -> 12.0;
-            default -> 0.0;
         };
         double typePrice = switch(type){
             case VEGGIE -> 1.0;
             case PEPPERONI -> 2.0;
             case CHEEZE -> 1.5;
             case BBQCHICKEN -> 2;
-            default -> 0.0;
         };
         this.price = (sizePrice + typePrice) * quantity;
         this.tax = this.price * 0.03;
