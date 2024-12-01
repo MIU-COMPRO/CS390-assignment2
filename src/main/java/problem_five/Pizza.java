@@ -25,7 +25,7 @@ public class Pizza {
             case VEGGIE -> 1.0;
             case PEPPERONI -> 2.0;
             case CHEEZE -> 1.5;
-            case BBQCHICKEN -> 2;
+            case BBQ_CHICKEN -> 2;
         };
         this.price = (sizePrice + typePrice) * quantity;
         this.tax = this.price * 0.03;

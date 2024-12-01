@@ -1,5 +1,5 @@
 package problem_five;
 
 public enum PizzaType {
-    VEGGIE, PEPPERONI, CHEEZE, BBQCHICKEN
+    VEGGIE, PEPPERONI, CHEEZE, BBQ_CHICKEN
 }
